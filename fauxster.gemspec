@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Fauxster::VERSION
   spec.authors       = ["mhuerster"]
   spec.email         = ["mary.huerster@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Like faker...but for hipsters}
+  spec.description   = %q{Wrapper for HipsterIpsum API}
   spec.homepage      = ""
   spec.license       = "MIT"
 
