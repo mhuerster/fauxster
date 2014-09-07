@@ -1,5 +1,8 @@
 require "fauxster/version"
+require "httparty"
 
 module Fauxster
-  # Your code goes here...
+  def self.say_stuff
+  	puts "hello world"
+  end
 end
