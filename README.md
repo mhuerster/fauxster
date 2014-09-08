@@ -32,7 +32,7 @@ Fauxster.craft_prose(x)
 
 ```ruby
 # generate two paragraphs of hipster nonsense mixed with Latin nonsense
-Fauxster.craft_prose(2, 'language' => 'hipster-latin')
+Fauxster.craft_prose(2, language: 'hipster-latin')
 ```
 
 ## Contributing
