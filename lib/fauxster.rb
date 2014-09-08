@@ -8,7 +8,10 @@ module Fauxster
   end
 
   def self.craft_prose(args = {})
+  	paragraphs = args.fetch('paras') { 1 }
+  	html = args.fetch('html') { false }
+  	language = args.fetch('language') { 'hipster-centric' }
   	# going to use something like this
-  	# HTTParty.get('http://hipsterjesus.com/api/?paras=1&html=false'&type='hipster-centric')
+  	# hipster_nonsense = HTTParty.get('http://hipsterjesus.com/api/?paras=1&html=false'&type='hipster-centric')
   end
 end
