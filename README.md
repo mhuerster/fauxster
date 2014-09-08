@@ -25,6 +25,16 @@ Or install it yourself as:
 Fauxster.craft_prose
 ```
 
+```ruby
+# generate x paragraphs of pure hipster nonsense (x must be an integer between 1 and 100)
+Fauxster.craft_prose(x)
+```
+
+```ruby
+# generate two paragraphs of hipster nonsense mixed with Latin nonsense
+Fauxster.craft_prose(2, 'language' => 'hipster-latin')
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/mhuerster/fauxster/fork )
