@@ -12,6 +12,6 @@ module Fauxster
   	html = args.fetch('html') { false }
   	language = args.fetch('language') { 'hipster-centric' }
   	# going to use something like this
-  	# hipster_nonsense = HTTParty.get('http://hipsterjesus.com/api/?paras=1&html=false'&type='hipster-centric')
+  	hipster_nonsense = HTTParty.get("http://hipsterjesus.com/api/?paras=#{paragraphs}&html=#{html}&type=#{language}")
   end
 end
