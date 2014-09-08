@@ -1,6 +1,8 @@
 # Fauxster
 
-Wrapper for the [HipsterIpsum API](http://hipsterjesus.com/)
+This is a wrapper for the [HipsterIpsum API](http://hipsterjesus.com/), an alternative to Lorem Ipsum.
+
+It generates between 1 and 100 paragraphs of hipster-themed filler text.
 
 ## Installation
 
@@ -18,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: write directions later
+```ruby
+# generate a single paragraph of pure hipster nonsense
+Fauxster.craft_prose
+```
 
 ## Contributing
 
