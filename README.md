@@ -2,7 +2,7 @@
 
 This is a wrapper for the [HipsterIpsum API](http://hipsterjesus.com/), an alternative to Lorem Ipsum.
 
-It generates between 1 and 100 paragraphs of hipster-themed filler text.
+It generates between 1 and 100 paragraphs of hipster-themed filler text. By default, paragraphs are separated by newline characters.
 
 ## Installation
 
@@ -33,6 +33,12 @@ Fauxster.craft_prose(x)
 ```ruby
 # generate two paragraphs of hipster nonsense mixed with Latin nonsense
 Fauxster.craft_prose(2, language: 'hipster-latin')
+```
+
+```ruby
+# separate pararaphs by html <p> tags
+# rather than new lines
+Fauxster.craft_prose(2, html: true)
 ```
 
 ## Contributing
