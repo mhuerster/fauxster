@@ -26,7 +26,8 @@ Fauxster.craft_prose
 ```
 
 ```ruby
-# generate x paragraphs of pure hipster nonsense (x must be an integer between 1 and 100)
+# generate x paragraphs of pure hipster nonsense
+# (x must be an integer between 1 and 100)
 Fauxster.craft_prose(x)
 ```
 
@@ -36,8 +37,7 @@ Fauxster.craft_prose(2, language: 'hipster-latin')
 ```
 
 ```ruby
-# separate pararaphs by html <p> tags
-# rather than new lines
+# separate pararaphs by html <p> tags rather than new lines
 Fauxster.craft_prose(2, html: true)
 ```
 
