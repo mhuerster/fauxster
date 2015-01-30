@@ -1,0 +1,189 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #4a4a4a;
+  background-color: #fafbfc;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  overflow-y: auto;
+}
+
+a {
+  color: #8085C1;
+  text-decoration: none;
+  border: none;
+}
+
+a img {
+  outline: none;
+}
+
+a:hover {
+  color: #555;
+  border: none;
+}
+
+.separator {
+  color: #555;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.site-header {
+  background-color: #9FCEFA;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.header-logo {
+  margin-left: 1%;
+  float: left;
+  display: inline-block;
+  left: 0;
+  max-width: 15%;
+}
+#logo {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.header-text {
+  display: inline-block;
+  width: 100%;
+}
+#site-title {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 9vw;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  width: 84%;
+  line-height: 100%;
+}
+.clear {
+  font-size: 6em;
+  clear: both;
+}
+
+.header-links {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+a.header-link{
+  text-align: center;
+  font-family: "Lato", "Hevletica", sans-serif;
+  color: #4a4a4a;
+  font-size: 1.5em;
+}
+a.header-link:hover {
+  text-decoration: underline;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  height: 100%;
+  width: 100%;
+  line-height: 1.25em;
+  overflow: hidden;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.tagline {
+  width: 100%;
+  color: #787878;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.5em;
+  display: block;
+}
+
+.posts {
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+}
+
+.footer {
+  font-size: 0.95em;
+  border-top: 1px solid #e7e7e7;
+  font-family: 'Josefin Slab', serif;
+  padding-top: 1.25em;
+  padding-bottom: 1.5em;
+  overflow: hidden;
+  float: center;
+  text-align: center;
+}
+
+/*****************************************************************************/
+/*
+/* Fauxster
+/*
+/*****************************************************************************/
+div.fauxster {
+  background-image: url("BrooklynBridge.jpg");
+  background-size: cover;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  vertical-align: middle;
+}
+div.description {
+  background-color: white;
+  width: 55%;
+  opacity: .75; 
+  display: block;
+  margin: auto;
+  padding: 5%;
+}
+.description p {
+  color: black;
+  font-family: "Special Elite", "Helvetica", sans-serif;
+  line-height: 150%;
+  padding: 1em;
+}
+
+.description a {
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+}
+.description a:hover {
+  color: #555;
+  text-decoration: underline;
+  border: none;
+}
